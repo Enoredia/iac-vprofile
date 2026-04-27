@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - stage
-    paths:
-      - terraform/**
-  pull_request:
-    branches:
-      - main
-    paths:
-      - terraform/**
+   # paths:
+     # - terraform/**
+ # pull_request:
+   # branches:
+    #  - main
+  #  paths:
+  #    - terraform/**
 
 permissions:
   id-token: write   # required to request the OIDC token
